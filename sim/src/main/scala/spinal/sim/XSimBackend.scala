@@ -254,7 +254,7 @@ class XSimBackend(config: XSimBackendConfig) extends Backend {
         s"${cmd}.bat"
       }
     } else {
-      s"${cmd}.sh"
+      s"${simulatePath}/${cmd}.sh"
     }
   }
 
